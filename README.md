@@ -1,21 +1,31 @@
-# FileBatchTool
+# FileBatchTool · 极简文件批处理工具库
 
-一个极简的文件批处理工具库，提供常用的文件操作功能：**批量重命名** 和 **文件夹打包为 ZIP**。  
-适合快速脚本、教学演示和日常文件管理。
-
----
-
-## ✨ 功能特性
-📂 **批量重命名**：支持前缀、序号，保留原扩展名。
-📦 **文件夹打包**：将整个文件夹压缩为 `.zip` 文件，方便归档和分享。
-🛠 **轻量易用**：零依赖，纯 Python 实现。
-🚀 **可扩展**：后续可添加更多模块（格式转换、文件清理等）。
+A minimalist Python toolkit for batch file operations: rename, archive, and clean.  
+适用于教学演示、自动化脚本和日常文件管理。
 
 ---
 
-## 📥 安装
-目前项目还在开发阶段，可以直接克隆仓库使用：
+## 🔧 功能 Features
+
+- 📁 **批量重命名 Rename**  
+  Add prefix/suffix, renumber files, change extensions, preview before execution.
+
+- 📦 **文件夹打包 Archive**  
+  Compress folders into `.zip`, support exclusion and dry-run.
+
+- 🧹 **文件清理 Clean**  
+  Delete empty folders, temp files, or files by size threshold.
+
+---
+
+## 📥 安装 Installation
 
 ```bash
 git clone https://github.com/EthanLiu1019/file-batch-tool.git
 cd file-batch-tool
+pip install -e .
+
+---
+
+## 📄 License
+MIT License · 作者 Ethan Liu

@@ -1,0 +1,14 @@
+[project]
+name = "filebatchtool"
+version = "0.2.0"
+description = "Minimalist file batch processing toolkit"
+authors = [{ name = "Ethan Liu" }]
+dependencies = ["click>=8.0"]
+requires-python = ">=3.7"
+
+[project.scripts]
+filebatch = "filebatch.cli:cli"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
