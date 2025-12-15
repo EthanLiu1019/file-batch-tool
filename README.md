@@ -7,13 +7,13 @@ A minimalist Python toolkit for batch file operations: rename, archive, and clea
 
 ## 🔧 功能 Features
 
-- 📁 **批量重命名 Rename**  
+📁 **批量重命名 Rename**  
   Add prefix/suffix, renumber files, change extensions, preview before execution.
 
-- 📦 **文件夹打包 Archive**  
+📦 **文件夹打包 Archive**  
   Compress folders into `.zip`, support exclusion and dry-run.
 
-- 🧹 **文件清理 Clean**  
+🧹 **文件清理 Clean**  
   Delete empty folders, temp files, or files by size threshold.
 
 ---
